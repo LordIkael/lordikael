@@ -1,157 +1,139 @@
 # Lord Ikael
 
-### Software Developer · AI & Data · Cybersecurity · Robotics
+**Software Developer · AI & Data Enthusiast · Cybersecurity & Robotics Explorer**
 
 I'm **Jean-Marie AGBANGLA**, also known as **Lord Ikael**.
 
-I'm an **Electrotechnics (F3) student and developer** interested in software engineering, artificial intelligence, data, cybersecurity and robotics.
+I'm an **Electrotechnics (F3) student and software developer** interested in building useful digital products and understanding the engineering behind them.
 
-I enjoy building real projects, understanding how systems work, and continuously improving my technical skills.
-
----
-
-## About Me
-
-I'm currently focused on **software development and engineering**, while progressively exploring other areas that interest me:
-
-* 🌐 Web development
-* 🤖 Artificial Intelligence
-* 📊 Data Science
-* 🛡️ Cybersecurity
-* 🤖 Robotics & embedded systems
-* 🐧 Linux and systems
-
-My long-term goal is to become a strong **Software Engineer / AI Engineer**, with deep knowledge in **Cybersecurity**, while continuing to explore robotics and intelligent systems.
+My main interests are **software engineering, artificial intelligence, data, cybersecurity, Linux and robotics**. I enjoy learning by building, solving concrete problems and going deeper than the abstraction provided by a framework or a tool.
 
 ---
 
-## Current Project
+## 🔭 Current Focus
 
-### 🔧 FIXA
+I'm currently developing **FIXA**, a client-professional platform for technical trades, starting in **Parakou, Benin**.
 
-**Client ↔ Professional platform for technical trades**
+The platform is designed to connect clients with verified professionals through matching, geolocation, messaging, quotations, missions and reputation.
 
-FIXA is the main project I'm currently developing.
+I'm using this project to develop my skills in:
 
-The platform aims to connect clients with technical professionals and artisans, starting with **Parakou, Benin**.
-
-The project focuses on:
-
-* Professional matching
-* Geolocation
-* Service requests
-* Messaging
-* Diagnostics and quotations
-* Missions
-* Professional verification
-* Reputation and reviews
-* Moderation
-* Security
-
-The goal is to build more than a simple directory: a structured platform where clients can find professionals and where professionals can build a reliable professional history.
+**Software Architecture · Full-Stack Development · Backend Engineering · Databases · Security · Product Design**
 
 ---
 
-## Technologies
+## 💻 Technologies & Tools
 
-### Languages
+**Languages**
 
 `HTML` `CSS` `JavaScript` `TypeScript` `Python`
 
-### Frontend
+**Frontend**
 
 `React` `Vite` `PWA`
 
-### Backend
+**Backend**
 
 `Node.js` `Fastify` `REST API` `OpenAPI`
 
-### Database
+**Database**
 
 `PostgreSQL` `PostGIS` `Prisma`
 
-### Tools
+**Tools & Environment**
 
 `Git` `GitHub` `Docker` `Linux` `Bash` `VS Code`
 
 ---
 
-## Areas I'm Exploring
+## 🤖 AI & Data
 
-### 🤖 Artificial Intelligence & Data
-
-I'm interested in:
-
-`Machine Learning` · `Data Science` · `Data Analysis` · `AI Agents` · `Recommendation Systems` · `NLP`
-
-I want to understand not only AI models, but also how they can be integrated into real software products.
-
-### 🛡️ Cybersecurity
-
-Cybersecurity is one of my main long-term interests.
+I'm particularly interested in the practical side of Artificial Intelligence and Data.
 
 I'm exploring:
 
-`Web Security` · `Pentesting` · `Red Team` · `Ethical Hacking` · `Authentication` · `Authorization` · `Secure Architecture`
+`Machine Learning` · `Data Science` · `Data Analysis` · `AI Agents` · `Recommendation Systems` · `NLP`
 
-My objective is to understand how systems can be built securely and how vulnerabilities can be identified and exploited ethically.
-
-### 🤖 Robotics & Electronics
-
-Coming from an electrotechnics background, I'm also interested in:
-
-`Robotics` · `Embedded Systems` · `Electronics` · `Automation` · `IoT`
+I'm especially interested in how AI can be integrated into real products to solve concrete problems rather than existing only as an isolated model.
 
 ---
 
-## Linux
+## 🛡️ Cybersecurity
+
+Cybersecurity is one of my main long-term interests.
+
+I'm interested in both **offensive and defensive security**, including:
+
+`Web Security` · `Penetration Testing` · `Red Team` · `Ethical Hacking` · `Authentication` · `Authorization` · `RBAC` · `Secure Architecture`
+
+My goal is to understand how systems are attacked, how vulnerabilities emerge and how software can be designed to resist them.
+
+---
+
+## 🤖 Robotics & Electronics
+
+My background in electrotechnics also drives my interest in the intersection between hardware and software.
+
+I'm exploring:
+
+`Robotics` · `Embedded Systems` · `Electronics` · `Automation` · `IoT`
+
+Long term, I'm interested in systems combining **hardware, software, AI and data**.
+
+---
+
+## 🐧 Linux
 
 I currently use **Fedora Linux** as my main development environment.
 
 I'm continuously improving my skills with:
 
-`Bash` · `CLI` · `Filesystem` · `Permissions` · `Processes` · `Git`
+`Bash` · `CLI` · `Git` · `Filesystem` · `Permissions` · `Processes` · `Development Tooling`
 
 ---
 
-## How I Learn
+## 🌟 Featured Project
 
-I don't want to only learn how to use tools.
+### FIXA — Client ↔ Professional Platform
 
-I want to understand the concepts behind them.
+A platform designed to connect clients with technical professionals and artisans.
 
-I try to follow a simple approach:
+**React · TypeScript · Fastify · PostgreSQL · PostGIS · Prisma · PWA**
+
+The project is being developed around a complete workflow:
+
+**Request → Matching → Selection → Conversation → Quote → Mission → Review**
+
+---
+
+## 🧠 Engineering Mindset
+
+I don't want to simply learn how to use technologies.
+
+I want to understand how systems work, how they fail, how they can be secured and how they can evolve.
 
 **Understand → Build → Test → Debug → Secure → Improve**
 
 ---
 
-## Projects
+## 🌱 Long-Term Direction
 
-### FIXA
-
-Client ↔ professional platform for technical trades.
-
-`React` `TypeScript` `Fastify` `PostgreSQL` `PostGIS`
-
-More projects will be added here as I continue building.
+My long-term goal is to grow toward **Software Engineering and AI Engineering**, while developing a strong specialization in **Cybersecurity** and continuing to explore **Data Science, Robotics and intelligent systems**.
 
 ---
 
-## Beyond Code
+## 🎮 Beyond Code
 
-Outside development, I enjoy:
-
-**Mathematics · Video Games · Anime & Manga · Electronics · Technology**
+Outside development, I enjoy **Mathematics, Video Games, Anime & Manga, Electronics and Technology**.
 
 ---
 
-## Contact
+## 📫 Contact
 
-📧 **[tamegnontech@gmail.com](mailto:tamegnontech@gmail.com)**
+**Email:** [tamegnontech@gmail.com](mailto:tamegnontech@gmail.com)
 
-🐙 **[GitHub](https://github.com/lordikael)**
+**GitHub:** [github.com/lordikael](https://github.com/lordikael)
 
 ---
 
-> **Build. Understand. Improve.**
+> **Build. Understand. Secure. Improve.**
