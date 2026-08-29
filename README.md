@@ -1,210 +1,233 @@
 <div align="center">
-  <img src="./assets/ikael-hero.svg" alt="Ikael Engineering Lab" width="100%" />
+  <img src="./assets/ikael-hero.svg" alt="IKAEL Engineering Lab" width="100%" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/tamegnontech"><img src="https://img.shields.io/badge/GITHUB-0B0F10?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:tamegnontech@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0B0F10?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+  <a href="https://github.com/tamegnontech?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-0B0F10?style=for-the-badge&logo=github&logoColor=00F5D4" alt="Repositories" /></a>
 </div>
 
 <br>
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GITHUB-181A1B?style=flat-square&logo=github&logoColor=white)](https://github.com/tamegnontech)
-[![Email](https://img.shields.io/badge/EMAIL-181A1B?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:tamegnontech@gmail.com)
-[![Profile views](https://komarev.com/ghpvc/?username=tamegnontech&style=flat-square&color=00F5D4&label=VIEWS)](https://github.com/tamegnontech)
-
-</div>
-
----
-
-## / 00 — THE OPERATOR
+## `00 / THE OPERATOR`
 
 I'm **Jean-Marie AGBANGLA** — `Lord Ikael` online.
 
-Electrotechnics student. Software developer. Curious about the parts of a system that most people never see.
+I'm an **Electrotechnics student and software developer**. I like software, but what really keeps me interested is everything underneath it: architecture, data, failure modes, security, automation, and the way separate pieces become one system.
 
-I build software, study how systems behave, and use that knowledge to make the next version better.
+I build projects to learn. Then I go back into the same project and ask what can break, what can be simplified, and what should exist at all.
 
-My interests converge around four domains:
-
-**SOFTWARE ENGINEERING** · **ARTIFICIAL INTELLIGENCE** · **CYBERSECURITY** · **ROBOTICS**
-
-The common thread is simple: **understand the system, not just the interface.**
+**Current territory:** `Software Engineering` · `AI & Data` · `Cybersecurity` · `Robotics`
 
 ---
 
-## / 01 — NOW BUILDING
+## `01 / NOW BUILDING`
 
 <div align="center">
-  <img src="./assets/fixa-card.svg" alt="FIXA project" width="100%" />
+  <img src="./assets/fixa-card.svg" alt="FIXA — system showcase" width="100%" />
 </div>
 
 ### FIXA
 
 **FIXA** is a client ↔ professional platform for technical services, starting in **Parakou, Benin**.
 
-The product is being designed around a real operational workflow rather than a directory of phone numbers:
+The product is built around an actual workflow instead of a simple directory:
 
 `REQUEST` → `MATCHING` → `CONVERSATION` → `QUOTE` → `MISSION` → `REVIEW`
 
-The engineering challenge is the interesting part: identity, trust, permissions, location, reputation, messaging, mission state, payment declaration, anti-fraud controls and reliable data flows all have to coexist without turning the MVP into an unnecessarily complex distributed system.
+The interesting part is the system behind that flow: **identity, trust, permissions, location, reputation, messaging, state transitions, payment declaration, anti-fraud controls and reliable data handling**.
 
-**Current architecture:** mobile-first PWA · modular monolith · REST API · PostgreSQL/PostGIS · private storage · outbox/worker pattern
+**Architecture:** mobile-first PWA · modular monolith · REST API · PostgreSQL/PostGIS · private storage · outbox/workers
 
 ---
 
-## / 02 — STACK
+## `02 / THE STACK`
 
-### CORE
+<table>
+<tr>
+<td valign="top" width="33%">
 
-`TypeScript` `JavaScript` `Python` `HTML` `CSS`
+### SOFTWARE
 
-### WEB
+`TypeScript`  
+`JavaScript`  
+`Python`  
+`HTML`  
+`CSS`
 
-`React` `Vite` `PWA` `Responsive UI`
+`React`  
+`Vite`  
+`Node.js`  
+`Fastify`  
+`REST`  
+`OpenAPI`
 
-### BACKEND
-
-`Node.js` `Fastify` `REST` `OpenAPI`
+</td>
+<td valign="top" width="33%">
 
 ### DATA
 
-`PostgreSQL` `PostGIS` `Prisma`
+`PostgreSQL`  
+`PostGIS`  
+`Prisma`
 
-### DEV ENVIRONMENT
+`Data Science`  
+`Machine Learning`  
+`AI Agents`  
+`Recommendation Systems`
 
-`Fedora Linux` `Bash` `Git` `GitHub` `Docker` `GitHub Actions`
+</td>
+<td valign="top" width="33%">
 
-### EXPLORATION
+### SYSTEMS
 
-`Machine Learning` `Data Science` `AI Agents` `Web Security` `Pentesting` `Robotics`
+`Fedora Linux`  
+`Bash`  
+`Git`  
+`GitHub`  
+`Docker`  
+`GitHub Actions`
+
+`Authentication`  
+`RBAC`  
+`API Security`  
+`Web Security`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## / 03 — SYSTEMS
+## `03 / HOW I THINK`
 
-I care about what happens **between** the pieces.
+I don't care much about using a framework just because it is popular.
+
+I care about questions like:
+
+> **Where does the data go?**  
+> **Who is allowed to change it?**  
+> **What happens when it fails halfway through?**  
+> **What happens when two actions race each other?**  
+> **How could someone abuse it?**
+
+That's the part of development I enjoy most: moving from **"it works"** to **"I understand why it works"**.
+
+---
+
+## `04 / SECURITY LAB`
+
+I'm building toward deeper knowledge in application and offensive security.
+
+**OFFENSIVE**  
+`Web App Security` · `Pentesting` · `Vulnerability Research` · `Network Security` · `Red Teaming`
+
+**DEFENSIVE**  
+`Secure Development` · `Authentication` · `Authorization` · `RBAC` · `Threat Modeling` · `Logging & Auditing`
+
+The goal is straightforward:
+
+**build it → break it → understand it → harden it**
+
+---
+
+## `05 / AI + DATA LAB`
+
+I'm interested in AI when it becomes an actual engineering component rather than just a demo.
 
 ```text
-CLIENT
+DATA
   ↓
-UI / PWA
+PROCESSING
   ↓
-API
+MODELS
   ↓
-APPLICATION LOGIC
+DECISION
   ↓
-DATA / EVENTS / STORAGE
-  ↓
-OBSERVABILITY
+PRODUCT
 ```
 
-When I design a feature, I naturally ask:
+I'm exploring **machine learning, data science, NLP, recommendation systems, AI agents and AI-assisted engineering**.
 
-- Where does the data live?
-- Who can change it?
-- What happens when a request fails halfway through?
-- What happens when two actions race each other?
-- What can be abused?
-- What should be logged?
-- What should never be exposed?
-
-That mindset is pushing me from **building pages** toward **designing systems**.
+The real question for me is not *"Can I call a model?"* but *"Can I make the intelligent part useful, testable and reliable inside a real system?"*
 
 ---
 
-## / 04 — SECURITY
+## `06 / ROBOTICS / HARDWARE`
 
-Security is an engineering concern, not a final checkbox.
+Electrotechnics gives me a second perspective on engineering: software is sometimes only one piece of the machine.
 
-### OFFENSIVE
-
-`Web Application Security` · `Penetration Testing` · `Vulnerability Research` · `Network Security` · `Red Teaming`
-
-### DEFENSIVE
-
-`Authentication` · `Authorization` · `RBAC` · `Threat Modeling` · `Secure Development` · `Logging & Auditing`
-
-My long-term direction is to become strong enough to look at the same system from both perspectives:
-
-> **How would I build it?**  
-> **How would I attack it?**  
-> **How would I harden it?**
-
----
-
-## / 05 — AI / DATA
-
-I am interested in AI where it meets engineering rather than hype.
-
-```text
-DATA → PROCESSING → MODELS → DECISION → PRODUCT
-```
-
-I'm exploring **machine learning, data science, recommendation systems, NLP, AI agents and AI-assisted engineering**.
-
-The goal is not just to call a model. It is to understand how intelligent capabilities become reliable product features.
-
----
-
-## / 06 — ROBOTICS / HARDWARE
-
-Electrotechnics gives me another way to think about systems: software can be only one component of the machine.
-
-I'm exploring the intersection of:
+I'm interested in the intersection of:
 
 `Electronics` + `Embedded Systems` + `Control` + `Automation` + `Software` + `AI`
 
-That path eventually leads toward intelligent machines rather than software that only lives on a screen.
+That is the direction I want to explore as I get stronger on both hardware and software.
 
 ---
 
-## / 07 — LINUX
+## `07 / LINUX`
 
-**Fedora Linux** is my primary development environment.
+My main development environment is **Fedora Linux**.
 
-The terminal is part of the learning process: filesystem, permissions, processes, packages, Git workflows, scripting and CLI tooling all matter because they expose what the system is actually doing.
+I use the terminal because it exposes the system instead of hiding it.
+
+```text
+filesystem    permissions    processes    packages
+shell         scripting      git          cli tooling
+```
 
 ```bash
 $ whoami
-ikael
+jean-marie
 
-$ uname -s
-Linux
+$ echo $SHELL
+/bin/bash
 
-$ echo "keep building"
-keep building
+$ echo "build deeper"
+build deeper
 ```
 
 ---
 
-## / 08 — BUILD LOG
+## `08 / SELECTED WORK`
 
-This profile is a record of things I actually build, test, break and improve.
+### 🔧 FIXA
+**Client ↔ professional platform for technical services.**  
+`PWA` · `Node.js` · `Fastify` · `PostgreSQL` · `PostGIS` · `Security`
 
-### FEATURED
+**[Open repositories →](https://github.com/tamegnontech?tab=repositories)**
 
-**[FIXA](https://github.com/tamegnontech)**  
-Client ↔ professional infrastructure for technical services.
-
-**[Explore all repositories →](https://github.com/tamegnontech?tab=repositories)**
-
-> I would rather have a few repositories with real engineering behind them than dozens of tutorial clones.
+> I would rather build a few serious systems than maintain a museum of tutorial clones.
 
 ---
 
-## / 09 — GITHUB SIGNAL
+## `09 / GITHUB SIGNAL`
 
 <div align="center">
 
 <a href="https://github.com/tamegnontech">
-  <img src="https://github-readme-stats.vercel.app/api?username=tamegnontech&show_icons=true&hide_border=true&bg_color=00000000&title_color=00F5D4&icon_color=00F5D4&text_color=9AA8AA&rank_icon=github" alt="Ikael GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tamegnontech&show_icons=true&hide_border=true&bg_color=00000000&title_color=00F5D4&icon_color=00F5D4&text_color=8FA3A2&rank_icon=github" height="165" alt="GitHub statistics" />
+</a>
+<a href="https://github.com/tamegnontech?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tamegnontech&layout=compact&hide_border=true&bg_color=00000000&title_color=00F5D4&text_color=8FA3A2" height="165" alt="Top languages" />
 </a>
 
 </div>
 
-The numbers are secondary. **The repositories are the signal.**
+<div align="center">
+
+<a href="https://github.com/tamegnontech?tab=overview">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tamegnontech&bg_color=00000000&color=8FA3A2&line=00F5D4&point=FFFFFF&area=true&hide_border=true" alt="GitHub activity graph" width="100%" />
+</a>
+
+</div>
+
+The point of the graph is not to look busy. **It is simply a record of the work behind the profile.**
 
 ---
 
-## / 10 — DIRECTION
+## `10 / DIRECTION`
 
 ```text
 SOFTWARE ENGINEERING
@@ -220,22 +243,19 @@ INTELLIGENT SYSTEMS
 ROBOTICS
 ```
 
-Long term, I want to become a **Software / AI Engineer with deep security knowledge**, while keeping one foot in data and another in hardware.
-
-Not because the titles sound impressive.
-
-Because those disciplines force me to understand systems from different angles.
+Long term, I'm working toward **Software / AI Engineering with strong security knowledge**, while keeping a serious connection to data, Linux and hardware.
 
 ---
 
-## / 11 — CONTACT
+<div align="center">
+  <img src="./assets/ikael-footer.svg" alt="Ikael footer" width="100%" />
+</div>
+
+<div align="center">
 
 **Jean-Marie AGBANGLA**  
 `Lord Ikael` · `@tamegnontech`
 
-📧 [tamegnontech@gmail.com](mailto:tamegnontech@gmail.com)  
-🐙 [github.com/tamegnontech](https://github.com/tamegnontech)
+[Email](mailto:tamegnontech@gmail.com) · [GitHub](https://github.com/tamegnontech)
 
-<div align="center">
-  <img src="./assets/ikael-footer.svg" alt="Ikael footer" width="100%" />
 </div>
