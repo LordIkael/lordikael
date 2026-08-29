@@ -1,429 +1,415 @@
 <div align="center">
 
-# Jean-Marie AGBANGLA
+# JEAN-MARIE AGBANGLA
 
-### `Software Developer` · `AI & Data` · `Cybersecurity` · `Robotics`
+### `Software Engineering` · `AI & Data` · `Cybersecurity` · `Robotics`
 
-**Building systems. Learning how they work. Understanding how they break. Making them better.**
+**I build software to understand systems — and study systems to build better software.**
 
-[![GitHub](https://img.shields.io/badge/GitHub-tamegnontech-181717?style=for-the-badge\&logo=github)](https://github.com/tamegnontech)
-[![Email](https://img.shields.io/badge/Email-tamegnontech%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:tamegnontech@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-tamegnontech-111111?style=flat-square\&logo=github)](https://github.com/tamegnontech)
+[![Email](https://img.shields.io/badge/Email-tamegnontech%40gmail.com-111111?style=flat-square\&logo=gmail)](mailto:tamegnontech@gmail.com)
+[![Location](https://img.shields.io/badge/Based_in-Benin-111111?style=flat-square\&logo=googlemaps)](#)
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## `whoami`
 
 I'm **Jean-Marie AGBANGLA**, also known as **Lord Ikael**.
 
-I'm an **Electrotechnics (F3) student**, developer and technology enthusiast building my skills across several interconnected fields:
+I'm an **Electrotechnics (F3) student and software developer** interested in the engineering behind modern digital systems.
+
+My interests converge around four areas:
 
 ```text
-Software Engineering
-       │
-       ├── Web Development
-       ├── Backend & Architecture
-       ├── Databases
-       │
-       ├── Artificial Intelligence
-       ├── Data Science
-       │
-       ├── Cybersecurity
-       │
-       └── Robotics & Embedded Systems
+                SOFTWARE ENGINEERING
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        WEB           AI           DATA
+          │            │            │
+          └────────────┼────────────┘
+                       │
+                       ▼
+                  CYBERSECURITY
+                       │
+                       ▼
+                    ROBOTICS
 ```
 
-I don't want to be limited to learning frameworks.
-
-I want to understand **how complete systems are designed, built, secured, tested and evolved**.
+I'm less interested in simply collecting technologies and more interested in understanding **how systems are designed, how they behave under failure, how they can be secured, and how they can evolve**.
 
 ---
 
-# 🚀 Currently Building
+# `01` — What I'm Building
 
 ## 🔧 FIXA
 
-### Client ↔ Professional Platform
+### A client ↔ professional platform for technical trades
 
-**FIXA** is a platform I'm currently developing to connect clients with technical professionals and artisans.
+**FIXA** is my current main project.
 
-📍 **Initial pilot:** Parakou, Benin
+The idea is simple:
 
-The platform is designed around a complete service lifecycle:
+> Help a client find the right technical professional, communicate with them, complete a mission and build trust through the platform.
+
+But the engineering problem is much deeper.
+
+FIXA handles:
+
+* professional matching
+* geolocation
+* service requests
+* proposals and assignments
+* contextual messaging
+* diagnostics
+* versioned quotations
+* missions
+* reputation
+* professional verification
+* moderation
+* anti-circumvention
+* operational KPIs
+
+### The core lifecycle
 
 ```text
-CLIENT
-  │
-  ▼
-Service Request
-  │
-  ▼
-Matching
-  │
-  ├──── Professional 1
-  ├──── Professional 2
-  └──── Professional 3
-          │
-          ▼
-      Selection
-          │
-          ▼
-     Conversation
-          │
-          ▼
-      Diagnostic
-          │
-          ▼
-        Quote
-          │
-          ▼
-        Mission
-          │
-          ▼
-   Final Amount
-          │
-          ▼
-   Payment Declaration
-          │
-          ▼
-       Review
+REQUEST
+   ↓
+MATCHING
+   ↓
+PROFESSIONAL SELECTION
+   ↓
+CONVERSATION
+   ↓
+DIAGNOSTIC
+   ↓
+QUOTE
+   ↓
+MISSION
+   ↓
+FINAL AMOUNT
+   ↓
+PAYMENT DECLARATION
+   ↓
+REVIEW
 ```
 
-### Core capabilities
+### Engineering approach
 
-* 🔎 Professional matching
-* 📍 Geolocation & service zones
-* ⭐ Reputation system
-* 📋 Service requests & missions
-* 💬 Contextual messaging
-* 📝 Diagnostics & quotations
-* 🔐 Professional verification
-* 🛡️ Anti-circumvention mechanisms
-* 📊 Operational KPIs
-* 👮 Administrative moderation
+```text
+Frontend
+React + TypeScript + PWA
+          │
+          ▼
+REST API
+          │
+          ▼
+Backend
+TypeScript + Fastify
+          │
+          ├── Identity
+          ├── Professionals
+          ├── Requests
+          ├── Matching
+          ├── Proposals
+          ├── Missions
+          ├── Quotes
+          ├── Payments
+          ├── Messaging
+          ├── Reputation
+          ├── Moderation
+          └── Notifications
+          │
+          ▼
+PostgreSQL + PostGIS
+          │
+          ├── Private Object Storage
+          └── Outbox / Worker
+```
+
+The project is intentionally built as a **mobile-first PWA with a modular monolithic architecture**, rather than introducing microservices prematurely. The implementation plan also specifies the complete data model, state machines, audit logging and domain separation before the business modules are progressively implemented.
+
+**FIXA is where I'm currently putting software architecture, backend engineering, databases, security and product thinking into practice.**
+
+---
+
+# `02` — Engineering
+
+I care about the parts of software that remain important when the tutorial ends.
 
 ### Architecture
 
-```text
-React + TypeScript
-        │
-        ▼
-     PWA
-        │
-        ▼
-REST API
-        │
-        ▼
-Fastify / TypeScript
-        │
-        ├── Modular Business Domains
-        │
-        ├── Authentication & RBAC
-        ├── Matching
-        ├── Messaging
-        ├── Missions
-        ├── Quotes
-        ├── Payments
-        ├── Reputation
-        └── Moderation
-        │
-        ▼
-PostgreSQL + PostGIS
-        │
-        ├── Private Object Storage
-        └── Outbox / Worker
-```
+`System Design` · `Modular Architecture` · `Domain Modeling`
 
-FIXA is intentionally designed as a **mobile-first PWA with a modular monolithic architecture**, rather than prematurely introducing microservices or unnecessary distributed infrastructure.
+### Backend
 
-The implementation specification defines **35 database tables**, six state machines, explicit business commands, RBAC, audit logging and strict separation between requests, proposals, assignments and missions.
+`TypeScript` · `Fastify` · `REST APIs` · `OpenAPI`
 
----
+### Data
 
-# 🧠 Engineering Interests
-
-### `01` Software Engineering
-
-I'm interested in building software that is:
-
-* Reliable
-* Maintainable
-* Secure
-* Testable
-* Scalable
-* Well-architected
-
-Areas I'm exploring:
-
-`System Design` · `Backend Architecture` · `REST APIs` · `Databases` · `Authentication` · `Authorization` · `Testing` · `CI/CD`
-
----
-
-### `02` Artificial Intelligence & Data
-
-I'm fascinated by the ability of software to transform data into useful decisions.
-
-Current interests include:
-
-`AI` · `Machine Learning` · `Data Science` · `AI Agents` · `Recommendation Systems` · `NLP` · `Data Analysis`
-
-I'm particularly interested in the intersection between **AI and real software products**.
-
----
-
-### `03` Cybersecurity
-
-Cybersecurity is one of my strongest long-term interests.
-
-#### Offensive Security
-
-`Pentesting` · `Red Team` · `Web Security` · `Vulnerability Research` · `Ethical Hacking`
-
-#### Defensive Security
-
-`Application Security` · `Authentication` · `RBAC` · `Threat Modeling` · `Audit Logs` · `Secure Architecture`
-
-My goal is to understand systems deeply enough to approach security from **both the attacker's and defender's perspective**.
-
----
-
-### `04` Robotics & Embedded Systems
-
-My background in electrotechnics naturally connects with my interest in:
-
-`Robotics` · `Embedded Systems` · `Electronics` · `Automation` · `IoT` · `Control Systems`
-
-I'm particularly interested in what happens when **software, hardware, data and AI meet**.
-
----
-
-# 🛠️ Tech Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,python" />
-</p>
+`PostgreSQL` · `PostGIS` · `Prisma` · `Data Modeling`
 
 ### Frontend
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,vite" />
-</p>
+`React` · `TypeScript` · `Vite` · `PWA`
 
-### Backend & Database
+### Engineering Practices
 
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" />
-</p>
+`Git` · `Testing` · `CI/CD` · `Docker` · `Linux` · `Bash`
 
-### Tools & Environment
+---
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode" />
-</p>
+# `03` — AI & Data
 
-### Currently Exploring
+Artificial Intelligence is one of the areas I'm most interested in.
+
+I'm exploring:
+
+* Artificial Intelligence
+* Machine Learning
+* Data Science
+* Data Analysis
+* AI Agents
+* Recommendation Systems
+* Natural Language Processing
+* AI-assisted development
+
+What interests me most is **the transition from AI models to real systems**:
 
 ```text
-AI / Machine Learning
-        │
-        ├── Python
-        ├── Data Science
-        └── AI Agents
-
-Cybersecurity
-        │
-        ├── Web Security
-        ├── Pentesting
-        └── Red Team
-
-Systems
-        │
-        ├── Linux
-        ├── Networking
-        └── Automation
+Data
+  ↓
+Model
+  ↓
+Reasoning
+  ↓
+Application
+  ↓
+Real-world impact
 ```
+
+I want to understand both the technology and the engineering required to turn it into useful products.
 
 ---
 
-# 🐧 Linux & Developer Environment
+# `04` — Cybersecurity
 
-Linux is an important part of my development workflow.
+Cybersecurity is a major long-term direction for me.
 
-I'm currently using **Fedora Linux** and working extensively with:
+I'm interested in understanding security from both sides.
+
+### Offensive
+
+`Pentesting` · `Red Team` · `Web Security` · `Vulnerability Research` · `Ethical Hacking`
+
+### Defensive
+
+`Application Security` · `Authentication` · `Authorization` · `RBAC` · `Threat Modeling` · `Auditing` · `Secure Architecture`
+
+My objective is not simply to learn how to use security tools.
+
+It's to understand **why vulnerabilities exist and how systems can be designed to resist them**.
+
+---
+
+# `05` — Robotics & Systems
+
+My background in **electrotechnics** naturally led me toward the intersection between hardware and software.
+
+I'm interested in:
+
+`Robotics` · `Embedded Systems` · `Electronics` · `Automation` · `IoT` · `Control Systems`
+
+Long term, I want to explore systems where:
+
+**Hardware + Software + AI + Data**
+
+work together.
+
+---
+
+# `06` — Linux
+
+Linux is part of my daily development environment.
+
+I currently work with **Fedora Linux** and use the terminal extensively.
 
 ```bash
-Bash
-Git
-CLI
-Filesystem
-Permissions
-Processes
-Package Management
-Development Tooling
+Linux
+├── Bash
+├── Git
+├── Filesystem
+├── Permissions
+├── Processes
+├── Package management
+└── Development tooling
 ```
 
-I enjoy working from the terminal because it forces me to understand what's happening underneath the abstractions.
+I like Linux because it exposes more of the system underneath the abstractions.
 
 ---
 
-# 🤖 AI-Assisted Engineering
+# `07` — AI-Assisted Engineering
 
-I also explore the use of modern AI systems as part of my development workflow.
+I actively experiment with AI as part of my development workflow.
 
-I use AI not simply to generate code, but to assist with:
+Not simply:
 
-* Architecture analysis
-* Debugging
-* Code review
-* Technical research
-* Documentation
-* Prompt engineering
-* Implementation supervision
-* Reasoning about complex systems
+> `prompt → code → copy`
 
-My objective is to learn how to combine **human engineering judgment with AI-assisted development** without sacrificing code quality or understanding.
+but rather:
+
+```text
+Problem
+   ↓
+Architecture
+   ↓
+Reasoning
+   ↓
+AI assistance
+   ↓
+Implementation
+   ↓
+Review
+   ↓
+Testing
+   ↓
+Validation
+```
+
+I use AI systems to help with things such as:
+
+* architecture analysis
+* implementation
+* debugging
+* code review
+* technical research
+* documentation
+* prompt engineering
+* reasoning through complex problems
+
+The important part for me is maintaining **engineering judgment and understanding**, rather than outsourcing them.
 
 ---
 
-# 📚 Engineering Philosophy
+# `08` — How I Think About Engineering
 
 > **Don't just learn the tool. Learn the system behind the tool.**
 
-I try to approach every project through a few principles:
+My preferred development loop:
 
 ```text
-Understand
-    ↓
-Design
-    ↓
-Build
-    ↓
-Test
-    ↓
-Break
-    ↓
-Secure
-    ↓
-Improve
+UNDERSTAND
+     ↓
+DESIGN
+     ↓
+BUILD
+     ↓
+TEST
+     ↓
+BREAK
+     ↓
+SECURE
+     ↓
+IMPROVE
 ```
 
-I believe good developers don't only ask:
+I want to be able to answer more than:
 
-> *"How do I make this work?"*
+**"How do I make it work?"**
 
-They also ask:
+I also want to answer:
 
-> *"Why does it work?"*
-> *"What happens when it fails?"*
-> *"Can someone abuse it?"*
-> *"How will it evolve?"*
+* Why does it work?
+* What happens when it fails?
+* What happens under unexpected input?
+* Can it be abused?
+* Is the data properly isolated?
+* How will this architecture evolve?
 
 ---
 
-# 📂 Featured Work
+# `09` — Current Direction
 
-### 🔧 FIXA
-
-**Client ↔ Professional platform for technical trades**
-
-`React` `TypeScript` `Fastify` `PostgreSQL` `PostGIS` `Prisma` `PWA`
-
-> Building a real-world marketplace focused on trust, matching, communication, missions and reputation.
-
----
-
-# 🎯 Roadmap
-
-### Now
+I'm currently developing toward a broader engineering profile:
 
 ```text
-████████████████░░░░  Web Development
-██████████████░░░░░░  Software Engineering
-███████████░░░░░░░░░  Linux & Systems
-█████████░░░░░░░░░░░  AI & Data
-███████░░░░░░░░░░░░░  Cybersecurity
-█████░░░░░░░░░░░░░░░  Robotics
+Software Development
+        ↓
+Software Engineering
+        ↓
+AI Engineering
+        ↓
+Cybersecurity
 ```
-
-### Long Term
-
-**Software Engineer**
-
-↓
-
-**AI Engineer**
-
-↓
-
-**Cybersecurity Specialist**
 
 while continuing to explore:
 
 **Data Science · Robotics · Embedded Systems · Intelligent Systems**
 
----
+The objective isn't to become a specialist in everything.
 
-# 🌱 Always Learning
-
-I'm currently focused on becoming stronger at:
-
-* Full-stack development
-* Backend engineering
-* Software architecture
-* Databases
-* Linux
-* Cybersecurity
-* Artificial Intelligence
-* Data Science
-
-The goal isn't to know everything.
-
-The goal is to become capable of **learning, understanding and building increasingly complex systems**.
+It's to build enough depth across these fields to understand **where they intersect**.
 
 ---
 
-# 📊 GitHub
+# `10` — Tech Stack
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tamegnontech&show_icons=true&hide_border=true&theme=transparent" />
+### Languages
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tamegnontech&hide_border=true&theme=transparent" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python" />
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,vite" />
+
+### Backend & Data
+
+<img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" />
+
+### Tools & Environment
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode" />
 
 </div>
 
 ---
 
-# ⚡ Beyond Code
-
-```text
-⚡ Electrotechnics
-💻 Software Development
-🤖 Artificial Intelligence
-📊 Data Science
-🛡️ Cybersecurity
-🐧 Linux
-🤖 Robotics
-🎮 Gaming
-📚 Continuous Learning
-```
-
-I like **Mathematics, Video Games, Anime & Manga**, and I'm naturally curious about technology and how complex systems work.
-
----
-
-# 📫 Contact
+# `11` — GitHub
 
 <div align="center">
 
-### Let's build something interesting.
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=tamegnontech&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tamegnontech&layout=compact&hide_border=true&theme=transparent" />
+
+</div>
+
+---
+
+# `12` — Beyond Code
+
+I'm also into:
+
+**Mathematics · Video Games · Anime & Manga · Technology · Electronics**
+
+I like understanding things deeply, experimenting with them and turning ideas into projects.
+
+---
+
+## Contact
+
+<div align="center">
+
+**Have an interesting project or technical idea?**
 
 📧 **[tamegnontech@gmail.com](mailto:tamegnontech@gmail.com)**
 
-🐙 **github.com/tamegnontech**
+🐙 **[github.com/tamegnontech](https://github.com/tamegnontech)**
 
 </div>
 
@@ -432,7 +418,5 @@ I like **Mathematics, Video Games, Anime & Manga**, and I'm naturally curious ab
 <div align="center">
 
 ### `Build. Break. Understand. Secure. Improve.`
-
-<img src="https://komarev.com/ghpvc/?username=tamegnontech&style=flat-square&color=blue" alt="Profile views"/>
 
 </div>
