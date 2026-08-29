@@ -1,0 +1,34 @@
+<svg width="1400" height="470" viewBox="0 0 1400 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g" x1="80" y1="20" x2="1320" y2="450" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#081012"/>
+    <stop offset="1" stop-color="#051B1A"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" stroke="#00F5D4" stroke-opacity="0.045"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="1398" height="468" rx="24" fill="url(#g)" stroke="#00F5D4" stroke-opacity="0.18"/>
+<rect x="1" y="1" width="1398" height="468" rx="24" fill="url(#grid)"/>
+<text x="52" y="62" fill="#66787B" font-family="JetBrains Mono, monospace" font-size="15" letter-spacing="3">01 / CURRENT BUILD</text>
+<text x="52" y="128" fill="#F4F7F6" font-family="JetBrains Mono, monospace" font-size="56" font-weight="800">FIXA</text>
+<text x="54" y="164" fill="#00F5D4" font-family="JetBrains Mono, monospace" font-size="17" letter-spacing="2">CLIENT ↔ PROFESSIONAL INFRASTRUCTURE</text>
+<text x="54" y="211" fill="#97A9AA" font-family="JetBrains Mono, monospace" font-size="15">A trust-oriented platform for technical services.</text>
+<text x="54" y="237" fill="#97A9AA" font-family="JetBrains Mono, monospace" font-size="15">Initial pilot: Parakou, Benin.</text>
+
+<g font-family="JetBrains Mono, monospace" font-size="15">
+ <rect x="54" y="286" width="174" height="52" rx="9" fill="#071214" stroke="#00F5D4" stroke-opacity="0.18"/><text x="141" y="317" fill="#D5E1E0" text-anchor="middle">REQUEST</text>
+ <rect x="254" y="286" width="174" height="52" rx="9" fill="#071214" stroke="#00F5D4" stroke-opacity="0.18"/><text x="341" y="317" fill="#D5E1E0" text-anchor="middle">MATCH</text>
+ <rect x="454" y="286" width="174" height="52" rx="9" fill="#071214" stroke="#00F5D4" stroke-opacity="0.18"/><text x="541" y="317" fill="#D5E1E0" text-anchor="middle">CHAT</text>
+ <rect x="654" y="286" width="174" height="52" rx="9" fill="#071214" stroke="#00F5D4" stroke-opacity="0.18"/><text x="741" y="317" fill="#D5E1E0" text-anchor="middle">QUOTE</text>
+ <rect x="854" y="286" width="174" height="52" rx="9" fill="#071214" stroke="#00F5D4" stroke-opacity="0.18"/><text x="941" y="317" fill="#D5E1E0" text-anchor="middle">MISSION</text>
+ <rect x="1054" y="286" width="174" height="52" rx="9" fill="#071214" stroke="#00F5D4" stroke-opacity="0.18"/><text x="1141" y="317" fill="#D5E1E0" text-anchor="middle">REVIEW</text>
+</g>
+
+<g stroke="#00F5D4" stroke-opacity="0.48" stroke-width="2">
+ <path d="M228 312H254"/><path d="M428 312H454"/><path d="M628 312H654"/><path d="M828 312H854"/><path d="M1028 312H1054"/>
+</g>
+<circle cx="1266" cy="104" r="7" fill="#00F5D4" filter="url(#glow)"/>
+<text x="1280" y="109" fill="#789093" font-family="JetBrains Mono, monospace" font-size="13">ACTIVE</text>
+</svg>

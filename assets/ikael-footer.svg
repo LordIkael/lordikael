@@ -1,0 +1,11 @@
+<svg width="1400" height="250" viewBox="0 0 1400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="l" x1="0" y1="0" x2="1400" y2="0"><stop stop-color="#00F5D4" stop-opacity="0"/><stop offset=".5" stop-color="#00F5D4" stop-opacity=".35"/><stop offset="1" stop-color="#00F5D4" stop-opacity="0"/></linearGradient>
+</defs>
+<path d="M0 28H1400" stroke="url(#l)"/>
+<g font-family="JetBrains Mono, monospace">
+ <text x="700" y="105" text-anchor="middle" fill="#F3F7F6" font-size="28" font-weight="700">BUILD · BREAK · UNDERSTAND · SECURE</text>
+ <text x="700" y="145" text-anchor="middle" fill="#6F8386" font-size="15" letter-spacing="3">LORD IKAEL / @TAMEGNONTECH</text>
+ <text x="700" y="200" text-anchor="middle" fill="#344447" font-size="12">SOFTWARE · AI · CYBERSECURITY · ROBOTICS</text>
+</g>
+</svg>
